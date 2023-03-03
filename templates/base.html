@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href={{url_for('static', filename='style.css')}}>
+        {% block head %}{% endblock %}
+    </head>
+    <body class="darkmode">
+        <script src={{url_for('static', filename='script.js')}}></script>
+        <div class="topnav">
+            <a href="/login">Login</a>
+            <a href="/upload">Upload</a>
+            <a href="/complaint">Complaint</a>
+            <a href="/admin">Admin</a>
+        </div>
+        {% block body %}{% endblock %}
+    </body>
+</html>

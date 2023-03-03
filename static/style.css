@@ -1,0 +1,22 @@
+.darkmode {
+    background-color: black;
+}
+.topnav {
+    background-color: white;
+    overflow: auto;
+}
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 10px 0px;
+    text-decoration: none;
+    font-size: 20px;
+    width: 25%;
+}
+.topnav a:hover {
+    background-color: grey;
+}
+.text {
+    color: white;
+}
